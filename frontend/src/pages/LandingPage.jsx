@@ -91,7 +91,7 @@ export default function LandingPage({ analysis }) {
               <input
                 className="hero-input"
                 type="text"
-                placeholder="https://github.com/owner/repo"
+                placeholder="https://github.com/Lakshya-Varshney/GitSignal"
                 value={url}
                 onChange={(event) => setUrl(event.target.value)}
                 onKeyDown={(event) => event.key === 'Enter' && url.trim() && handleScan(url.trim())}
