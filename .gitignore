@@ -1,74 +1,26 @@
-# =========================
-# Global
-# =========================
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.production
+
+# Cache
+/tmp/gitsignal_cache/
+*.db
+
+# OS
 .DS_Store
 Thumbs.db
-*.log
-.env
-.env.*
-*.local
 
-# =========================
-# Backend (Python)
-# =========================
-backend/__pycache__/
-backend/**/*.py[cod]
-backend/*.py[cod]
-
-# Virtual environments
-backend/venv/
-backend/.venv/
-backend/env/
-backend/.env/
-
-# Python build artifacts
-backend/build/
-backend/dist/
-backend/*.egg-info/
-backend/.pytest_cache/
-backend/.mypy_cache/
-backend/.ruff_cache/
-backend/.coverage
-backend/htmlcov/
-
-# Jupyter
-backend/.ipynb_checkpoints/
-
-# =========================
-# Frontend (Node.js)
-# =========================
-frontend/node_modules/
-frontend/.npm/
-frontend/.next/
-frontend/.nuxt/
-frontend/.svelte-kit/
-frontend/dist/
-frontend/build/
-frontend/coverage/
-
-# Package manager logs
-frontend/npm-debug.log*
-frontend/yarn-debug.log*
-frontend/yarn-error.log*
-frontend/pnpm-debug.log*
-
-# =========================
-# Data
-# =========================
-data/
-backend/data/
-frontend/data/
-
-# =========================
-# IDEs
-# =========================
+# IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# =========================
-# OS Files
-# =========================
-.DS_Store
-Thumbs.db
