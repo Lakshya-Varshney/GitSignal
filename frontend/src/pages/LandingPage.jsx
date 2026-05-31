@@ -48,9 +48,9 @@ const SIGNALS = [
 ]
 
 const DEMO_REPOS = [
-  { label: 'expressjs/express', url: 'https://github.com/expressjs/express' },
-  { label: 'django/django', url: 'https://github.com/django/django' },
-  { label: 'vuejs/vue', url: 'https://github.com/vuejs/vue' }
+  { label: 'expressjs/morgan', url: 'https://github.com/expressjs/morgan' },
+  { label: 'expressjs/cors', url: 'https://github.com/express/cors' },
+  { label: 'sindresorhus/ora', url: 'https://github.com/sindresorhus/ora' }
 ]
 
 export default function LandingPage({ analysis }) {
