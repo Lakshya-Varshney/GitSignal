@@ -8,9 +8,9 @@ CACHE_DIR = os.getenv("GITSIGNAL_CACHE_DIR", DEFAULT_CACHE_DIR)
 cache = dc.Cache(CACHE_DIR)
 
 PRELOADED_REPOS = {
-    "https://github.com/expressjs/express": "express",
-    "https://github.com/django/django": "django",
-    "https://github.com/vuejs/vue": "vue",
+    "https://github.com/expressjs/morgan": "morgan",
+    "https://github.com/expressjs/cors": "cors",
+    "https://github.com/sindresorhus/ora": "ora",
 }
 
 

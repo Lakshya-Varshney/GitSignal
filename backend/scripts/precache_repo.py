@@ -8,9 +8,9 @@ from analyzer.scorer import score_repo
 from analyzer.cache import set_cached
 
 REPOS = [
-    "https://github.com/expressjs/express",
-    "https://github.com/django/django",
-    "https://github.com/vuejs/vue",
+    "https://github.com/expressjs/morgan",
+    "https://github.com/expressjs/cors",
+    "https://github.com/sindresorhus/ora",
 ]
 
 
