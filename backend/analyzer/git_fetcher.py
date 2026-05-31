@@ -17,7 +17,6 @@ async def fetch_repo(repo_url: str, max_commits: int = 200, progress_cb=None) ->
         repo = Repo.clone_from(
             repo_url,
             tmpdir,
-            depth=max_commits + 10,
             no_single_branch=True
         )
 
@@ -25,7 +24,7 @@ async def fetch_repo(repo_url: str, max_commits: int = 200, progress_cb=None) ->
             progress_cb(30, "collecting commits")
 
         commits_data = []
-        commits = list(repo.iter_commits("HEAD", max_count=max_commits))
+        commits = list(repo.iter_commits("HEAD", max_count=max_commits,after="2020-01-01"))
 
         if progress_cb:
             progress_cb(35, "extracting diffs")
